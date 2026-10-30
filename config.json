@@ -1,0 +1,19 @@
+{
+  "feed_url": "wss://api.p2pquake.net/v2/ws",
+  "window_title": "JQuake",
+  "capture_full_screen": false,
+  "framerate": 15,
+  "crf": 26,
+  "isolate_app_audio": true,
+  "audio_match": "java",
+  "linux_audio_source": "jquake.monitor",
+  "windows_audio_device": "CABLE Output (VB-Audio Virtual Cable)",
+  "segment_seconds": 5,
+  "pre_roll_seconds": 30,
+  "post_roll_seconds": 10,
+  "quiet_timeout_seconds": 120,
+  "max_record_seconds": 900,
+  "strong_scale": 45,
+  "buffer_dir": "buffer",
+  "output_dir": "clips"
+}

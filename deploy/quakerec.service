@@ -1,0 +1,13 @@
+[Unit]
+Description=quakerec - JQuake auto recorder
+After=graphical-session.target
+
+[Service]
+WorkingDirectory=%h/quakerec
+ExecStart=%h/quakerec/.venv/bin/python quakerec.py
+Restart=always
+RestartSec=5
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target

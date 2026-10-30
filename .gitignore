@@ -1,0 +1,23 @@
+# recording output and rolling buffer
+buffer/
+clips/
+*.ts
+*.mp4
+*.mkv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# local machine config (keep config.json as the shared template)
+config.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
